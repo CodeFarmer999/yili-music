@@ -9,4 +9,4 @@ spring:
     password: ${MYSQL_PASSWORD}
     username: ${MYSQL_USER_NAME}
     url: jdbc:mysql://${MYSQL_HOST}:3306/${DATABASE_NAME}?characterEncoding=UTF8&userSSL=false
-#    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
